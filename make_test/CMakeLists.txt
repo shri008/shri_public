@@ -8,4 +8,5 @@ add_executable(
     header.h
     add.c
     sub.c
-    mul.c)
+    mul.c
+    div.c)

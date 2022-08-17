@@ -1,3 +1,0 @@
-/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/rebuild_cache.dir
-/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/edit_cache.dir
-/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/calculator.dir

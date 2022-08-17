@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/calculator.dir/main.c.o CMakeFiles/calculator.dir/add.c.o CMakeFiles/calculator.dir/sub.c.o CMakeFiles/calculator.dir/mul.c.o  -o calculator 

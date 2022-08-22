@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/shrikrushna/shri_git/shri_public/make_test/add.c" "/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/calculator.dir/add.c.o"
+  "/home/shrikrushna/shri_git/shri_public/make_test/div.c" "/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/calculator.dir/div.c.o"
   "/home/shrikrushna/shri_git/shri_public/make_test/main.c" "/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/calculator.dir/main.c.o"
   "/home/shrikrushna/shri_git/shri_public/make_test/mul.c" "/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/calculator.dir/mul.c.o"
   "/home/shrikrushna/shri_git/shri_public/make_test/sub.c" "/home/shrikrushna/shri_git/shri_public/make_test/CMakeFiles/calculator.dir/sub.c.o"

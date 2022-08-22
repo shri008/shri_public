@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shrikrushna/shri_git/shri_public/make_test
+CMAKE_SOURCE_DIR = /home/shrikrushna/shri_git/shri_public
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/shrikrushna/shri_git/shri_public/make_test
@@ -150,6 +150,33 @@ add.c.s:
 	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/add.c.s
 .PHONY : add.c.s
 
+div.o: div.c.o
+
+.PHONY : div.o
+
+# target to build an object file
+div.c.o:
+	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/div.c.o
+.PHONY : div.c.o
+
+div.i: div.c.i
+
+.PHONY : div.i
+
+# target to preprocess a source file
+div.c.i:
+	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/div.c.i
+.PHONY : div.c.i
+
+div.s: div.c.s
+
+.PHONY : div.s
+
+# target to generate assembly for a file
+div.c.s:
+	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/div.c.s
+.PHONY : div.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -243,6 +270,9 @@ help:
 	@echo "... add.o"
 	@echo "... add.i"
 	@echo "... add.s"
+	@echo "... div.o"
+	@echo "... div.i"
+	@echo "... div.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/shrikrushna/shri_git/shri_public/make_test
+# Install script for directory: /home/shrikrushna/shri_git/shri_public
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

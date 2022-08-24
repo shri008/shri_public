@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calculator.dir/add.c.o"
+  "CMakeFiles/calculator.dir/div.c.o"
   "CMakeFiles/calculator.dir/main.c.o"
   "CMakeFiles/calculator.dir/mul.c.o"
   "CMakeFiles/calculator.dir/sub.c.o"

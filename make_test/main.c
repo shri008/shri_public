@@ -10,7 +10,7 @@ int b;
 printf("inside main\r\nEnter ant two integer\n");
 scanf("%d %d",&a,&b);
 
-add(a,b);
+add(b,a);
 
 sub(a,b);
 

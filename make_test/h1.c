@@ -2,7 +2,7 @@
 
 void main()
 {
-
+printf("added new ");
 printf("poll scm test");
 
 }

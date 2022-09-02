@@ -1,0 +1,12 @@
+t=2022-09-02T10:47:49+0530 lvl=info msg="no configuration paths supplied"
+t=2022-09-02T10:47:49+0530 lvl=info msg="using configuration at default config path" path=/home/shrikrushna/.config/ngrok/ngrok.yml
+t=2022-09-02T10:47:49+0530 lvl=info msg="open config file" path=/home/shrikrushna/.config/ngrok/ngrok.yml err=nil
+t=2022-09-02T10:47:49+0530 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2022-09-02T10:47:49+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2022-09-02T10:47:49+0530 lvl=eror msg="failed to auth" obj=tunnels.session err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'in':\n  - ts_2ECMVrdd6Gdi1mu2DzNIW2VNNKc (106.51.227.10)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-09-02T10:47:49+0530 lvl=eror msg="failed to reconnect session" obj=csess id=b5be5cbeb470 err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'in':\n  - ts_2ECMVrdd6Gdi1mu2DzNIW2VNNKc (106.51.227.10)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-09-02T10:47:49+0530 lvl=eror msg="session closing" obj=tunnels.session err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'in':\n  - ts_2ECMVrdd6Gdi1mu2DzNIW2VNNKc (106.51.227.10)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-09-02T10:47:49+0530 lvl=info msg="received stop request" obj=app stopReq="{err:0xc000365440 restart:false}"
+t=2022-09-02T10:47:49+0530 lvl=eror msg="terminating with error" obj=app err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'in':\n  - ts_2ECMVrdd6Gdi1mu2DzNIW2VNNKc (106.51.227.10)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-09-02T10:47:49+0530 lvl=crit msg="command failed" err="Your account is limited to 1 simultaneous ngrok agent session.\nActive ngrok agent sessions in region 'in':\n  - ts_2ECMVrdd6Gdi1mu2DzNIW2VNNKc (106.51.227.10)\r\n\r\nERR_NGROK_108\r\n"
+t=2022-09-02T10:47:49+0530 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": context canceled"

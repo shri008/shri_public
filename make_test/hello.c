@@ -7,5 +7,7 @@ printf("blink charging");
     printf("this is modification");
     printf("hello");
     printf("hello");
+    printf("hello");
+    printf("hello");
     printf("hello semaconnect");
 }

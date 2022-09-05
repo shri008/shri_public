@@ -8,5 +8,5 @@ printf("sema charging");
     printf("hello");
     printf("hello");
     printf("hello");
-    printf("hello");
+    printf("hello semaconnect");
 }

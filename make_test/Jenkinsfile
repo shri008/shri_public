@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: '63134402-2dbd-4bde-b16b-a0d297aa94ff', url: 'git@github.com:shri008/shri_public.git']]])
+            }
+        }
+
+      stage('Build') {
+            steps {
+                cmakeBuild buildDir: 'build', cleanBuild: true, installation: 'CMAKE', sourceDir: 'make_test', steps: [[withCmake: true]]
+            }
+        }
+    }
+}

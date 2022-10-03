@@ -16,4 +16,11 @@ printf("blink charging");
     printf("this is modification");
     printf("this is modification");
     printf("this is modification");
+<<<<<<< HEAD
+=======
+    printf("this is modification");
+    printf("this is modification");
+    printf("hello");
+    printf("hello semaconnect");
+>>>>>>> 0463f75aa55b158035f55906c0557364911e9a56
 }
